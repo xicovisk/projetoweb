@@ -478,7 +478,6 @@ footer {
 @media (max-width:1000px) {
 
     .nav-menu-mobile {
-        margin-top: 40px;
         display: inline-block;
         margin-bottom: 50px;
     }
