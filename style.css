@@ -23,7 +23,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     gap: 50px;
-    padding: 15px;
+    padding: 10px;
     color: white;
     align-items: center;
 }
@@ -50,7 +50,7 @@ body {
     display: flex;
     background: rgb(6, 167, 6);
     border: none;
-    padding: 12px;
+    padding: 10px;
     border-radius: 20px;
     color: white;
     cursor: pointer;
@@ -66,7 +66,7 @@ body {
     align-items: center;
     background: rgb(33, 162, 185);
     border: none;
-    padding: 12px;
+    padding: 10px;
     border-radius: 20px;
     color: white;
     cursor: pointer;
@@ -154,6 +154,7 @@ li a:hover {
 
 .img-banner img {
     width: 100%;
+    margin-top: 140px;
 }
 
 /* SECTION 1 DIV SECT1 E SECT1-IMG */
