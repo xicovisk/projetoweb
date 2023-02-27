@@ -12,6 +12,11 @@ body {
 
 /* HEADER - LOGO - NAVMENU - BANNER */
 
+.position-fixed {
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid silver;
+}
 .contato-header {
     background: rgb(3, 46, 110);
     display: flex;
@@ -79,6 +84,7 @@ body {
     text-align: center;
     box-shadow: 0 0.2rem 0.3rem silver;
     padding: 10px;
+    background: white;
 }
 
 .nav-menu-mobile img {
@@ -532,8 +538,9 @@ footer {
     }
 
     #h1 {
-        font-size: 20px;   
+        font-size: 20px;
     }
+
     #p1 {
         font-size: 12;
     }
@@ -545,9 +552,9 @@ footer {
     .section2 img {
         width: 200px;
     }
-    
-    .footer-contato p{
-        font-size: 12px;  
+
+    .footer-contato p {
+        font-size: 12px;
     }
 
     .btn-whats {
