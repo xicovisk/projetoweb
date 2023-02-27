@@ -502,6 +502,10 @@ footer {
         display: none;
     }
 
+    .footer-contato {
+         border-left: none;
+    }
+
 }
 
 @media (max-width:750px) {
