@@ -77,12 +77,12 @@ body {
     display: none;
     width: 100%;
     text-align: center;
-    box-shadow: 0 0.2rem 0.3rem  silver;
+    box-shadow: 0 0.2rem 0.3rem silver;
     padding: 10px;
 }
 
 .nav-menu-mobile img {
-    width: 340px;
+    width: 300px;
     margin-bottom: 35px;
 }
 
@@ -253,12 +253,12 @@ span {
 
 .h1-cards {
     text-transform: uppercase;
-    font-size: 23px;
+    font-size: 17px;
     font-weight: 100;
 }
 
 .btn-saibamais {
-    font-size: 19px;
+    font-size: 15px;
     background-color: rgb(117, 37, 37);
     color: white;
     border: none;
@@ -523,4 +523,40 @@ footer {
         width: 25px;
     }
 
+}
+
+@media (max-width:360px) {
+
+    .nav-menu-mobile img {
+        width: 200px;
+    }
+
+    #h1 {
+        font-size: 20px;   
+    }
+    #p1 {
+        font-size: 12;
+    }
+
+    .sect1-img img {
+        display: none;
+    }
+
+    .section2 img {
+        width: 200px;
+    }
+    
+    .footer-contato p{
+        font-size: 12px;  
+    }
+
+    .btn-whats {
+        padding: 8px;
+        font-size: 10px;
+    }
+
+    .btn-online {
+        padding: 8px;
+        font-size: 10px;
+    }
 }
