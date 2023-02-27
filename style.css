@@ -503,7 +503,7 @@ footer {
     }
 
     .footer-contato {
-         border-left: none;
+         border-left: 0;
     }
 
 }
